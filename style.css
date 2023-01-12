@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: darkgray;
+}
+
+header {
+  font-size: xx-large;
+}
+.container {
+  display: grid;
+  grid-template-rows: 100px 2fr;
+  grid-template-columns: repeat(1fr, 6);
+  align-content: center;
+  justify-content: center;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 75px 3fr;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+form {
+  grid-column: 3/5;
+}
+
+.results-section {
+    grid-row: 2;
+    grid-column: 3/5;
+}
+
+.character-image {
+    width: 100%;
+}
